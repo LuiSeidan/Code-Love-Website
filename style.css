@@ -1,0 +1,122 @@
+#header a{
+    padding: 15px;
+}
+
+#header .navbar{
+    background-color: teal !important;
+}
+
+#intro {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom,  rgb(0, 128, 128), rgba(14, 148, 200, 0.037)), url(img/bg-intro.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+#intro h1{
+    margin-bottom: 30px;
+}
+
+#intro em{
+    color: #007bff;
+    font-weight: bold;
+}
+
+#about-us{
+    background-color: #ececec
+}
+
+section{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.section-title{
+    padding-bottom: 30px;
+}
+
+#services{
+    margin: 25px 0;
+}
+
+#services .icon{
+    font-size: 3rem;
+    color: rgb(3, 3, 47);
+    margin-bottom: 10px;
+}
+
+#pills-tab a{
+    background-color: teal;
+}
+
+.nav-pills .nav-link{
+    background-color: teal;
+}
+
+.nav-pills .nav-link{
+    color: rgb(3, 3, 47)
+}
+
+#numbers{
+    background-color:rgb(9, 175, 139);
+    color: #fff;
+    padding: 30px 0;
+}
+
+#numbers .info{
+    font-size: 2.5em
+}
+
+#work{
+    background-color: #ececec;
+}
+
+#team .member img{
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+#testimonials{
+    background-color: rgb(20, 102, 209);
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+#pricing .card-header{
+    background-color: teal;
+    color: #fff;
+    padding: 20px;
+}
+
+#pricing li:nth-child(2n + 1){
+    background-color: rgba(0,0,0,0.1);
+}
+
+#contact-us{
+    background-color: #ececec;
+}
+
+#contact-us form{
+    max-width: 500px;
+    margin: auto;
+}
+
+#map{
+    padding: 0px
+}
+
+#footer{
+    background-color: teal;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+#footer p{
+    margin: 0px;
+}
